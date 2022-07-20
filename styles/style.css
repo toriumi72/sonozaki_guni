@@ -1192,7 +1192,7 @@ body {
   margin-top: 160px;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-image: url(images/background-image-about.jpg);
+  background-image: url(../images/background-image-about.jpg);
   background-size: cover;
   background-position: center;
 }
