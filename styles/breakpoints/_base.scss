@@ -1214,6 +1214,9 @@ body {
         transform: translateY(-60%) rotate(40deg);
     }
 }
+.hp_contact_br {
+    display: none;
+}
 @media (max-width: 959px) {
     .ly_contact {
         &_inner {
@@ -1238,6 +1241,11 @@ body {
         width: 335px;
         height: 48px;
         line-height: 3;
+    }
+}
+@media (max-width: 390px) {
+    .hp_contact_br {
+        display: block;
     }
 }
 // footer 
