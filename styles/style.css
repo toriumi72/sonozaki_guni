@@ -126,6 +126,12 @@
   }
 }
 
+@media (max-width: 600px) {
+  .bl_hamburger_menu_li > a {
+    font-size: 1.8rem !important;
+  }
+}
+
 #loading {
   width: 100%;
   height: 100vh;

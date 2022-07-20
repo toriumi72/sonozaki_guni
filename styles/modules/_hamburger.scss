@@ -66,6 +66,7 @@
     padding: calc((100vh - 500px)/ 2) 0;
     gap: 50px;
 }
+
 .bl_hamburger_menu-li:not(:last-child) {
     margin-bottom: 50px;
 }
@@ -91,5 +92,12 @@
     .bl_hamburger_button,
     .bl_hamburger_button span {
         display: block;
+    }
+}
+@media (max-width: 600px) {
+    .bl_hamburger_menu_li {
+        & > a {
+            font-size: 1.8rem !important;
+        }
     }
 }
