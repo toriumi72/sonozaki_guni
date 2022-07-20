@@ -1,0 +1,30 @@
+.ly_header.header-scroll {
+    width: 100%;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.6);
+    z-index: 20;
+}
+.bl_header_logo-2.header-scroll {
+    display: block;
+    z-index: 20;
+}
+.bl_header_logo.header-scroll {
+    display: none;
+}
+.bl_nav_menu_li.header-scroll {
+    & > a {
+        color: $cBlack;
+    }
+}
+.hp_nav_menu_li.header-scroll {
+    &::before {
+        background-color: $cBlack;
+    }
+}
+.bl_hamburger_button.header-scroll {
+    & > span {
+        background-color: $cBlack;
+    }
+}

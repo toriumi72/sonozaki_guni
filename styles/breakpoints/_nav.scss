@@ -1,0 +1,28 @@
+
+.bl_nav {
+    &_menu {
+        display: flex;
+        gap: 8px;
+        &_li {
+            & > a {
+                color: $cWhite;
+                text-align: center;
+                & > span {
+                    display: block;
+                    text-align: center;
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+}
+.hp_bar {
+    color: $cWhite;
+    font-size: 2.0rem;
+}
+
+@media (max-width: 959px) {
+    .bl_nav {
+        display: none;
+    }
+}
