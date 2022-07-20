@@ -1192,7 +1192,7 @@ body {
   margin-top: 160px;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-image: url(../images/background-image-about.jpg);
+  background-image: url(images/background-image-about.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -1657,7 +1657,7 @@ body {
 }
 
 .ly_contact {
-  background-image: url(/images/background-image-contact.jpg);
+  background-image: url(../images/background-image-contact.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1711,7 +1711,7 @@ body {
 }
 
 .hp_c-R > a::after {
-  content: url(/images/Backhoe.svg);
+  content: url(../images/Backhoe.svg);
   width: 24px;
   height: 18px;
   position: absolute;
@@ -1728,7 +1728,7 @@ body {
 }
 
 .hp_c-B > a::after {
-  content: url(/images/Factory.svg);
+  content: url(../images/Factory.svg);
   width: 24px;
   height: 18px;
   position: absolute;
