@@ -10,9 +10,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     JsHamburgerBtn.classList.toggle('js_hamburger_open');
     JsHamburgerMenu.classList.toggle('js_hamburger_open');
   });
-  JsHamburgerMenu.addEventListener('click',function() {
-    JsHamburgerMenu.classList.remove('js_hamburger_open');
-  });
   for (let i = 0; i < JsHamburgerMenuLi.length; i++) {
     JsHamburgerMenuLi[i].addEventListener('click',function() {
       body.classList.toggle('js_hamburger_no_scroll');

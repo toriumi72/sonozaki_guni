@@ -53,6 +53,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    display: none;
     background-color: $cBrightBlue;
     transform: translateX(100%);
     opacity: 0;
@@ -74,7 +75,7 @@
     transform: translateX(0);
     opacity: 1.0;
     transition: transform 0.5s, opacity 0.5s;
-
+    display: block;
 }
 
 .bl_hamburger_menu_li a {
