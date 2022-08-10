@@ -61,12 +61,11 @@
 }
 
 .bl_hamburger_menu {
-  width: 100%;
+  width: 100vw;
   height: 100Vh;
   position: absolute;
   top: 0;
   right: 0;
-  display: none;
   background-color: #4b6cb7;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
@@ -104,7 +103,6 @@
   transition: opacity 0.5s, -webkit-transform 0.5s;
   transition: transform 0.5s, opacity 0.5s;
   transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
-  display: block;
 }
 
 .bl_hamburger_menu_li a {
@@ -135,7 +133,7 @@
 }
 
 #loading {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: #4b6cb7;
   position: fixed;
@@ -330,7 +328,7 @@
 }
 
 .ly_header.header-scroll {
-  width: 100%;
+  width: 100vw;
   position: fixed !important;
   top: 0;
   left: 0;
@@ -569,6 +567,7 @@ body {
 
 .ly_header {
   height: 80px;
+  width: 100%;
   background-image: -webkit-gradient(linear, left top, right top, from(#4b6cb7), to(#182848));
   background-image: linear-gradient(to right, #4b6cb7, #182848);
 }
